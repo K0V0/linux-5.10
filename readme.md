@@ -11,6 +11,12 @@ are suitable for Linux gaming compared to stock kernel which is tuned rather for
 and enterprise sector too.
 * original kernel source tarball: [https://github.com/xanmod/linux/archive/5.10.5-xanmod2-cacule.tar.gz](https://github.com/xanmod/linux/archive/5.10.5-xanmod2-cacule.tar.gz)
 
+**important note after install** I observed that default actions for suspend/hibernation/hybrid sleep in XFCE desktop enviroment stopped
+ working on this kernel, but hopefully to resolve this issue just reinstalation of **pm-utils** was enough.
+```
+sudo apt-get install --reinstall pm-utils
+```
+
 ## 5.10 
 
 * only bluetooth didn't worked - solved by patch*
