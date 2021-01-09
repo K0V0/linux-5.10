@@ -1,13 +1,22 @@
-# compiled Linux kernel 5.10 for Lenovo Ideapad Flex-5 (AMD Ryzen 5)
+# compiled Linux kernel(s) 5.10.x for Lenovo Ideapad Flex-5 (AMD Ryzen 5)
 
 * Finally 100% working linux kernel for IdeaPad Flex 5 series convertible laptops, versions with AMD Ryzen 5 (4000 series) CPU and chipset.
 * 5.10 is going to be LTS kernel
+
+## 5.10.5-xanmod
+
+* applied patch for bluetooth
+* [Xanmod](https://xanmod.org/) kernel is ubuntu/debian kernel tuned more toward desktop/laptop average user or their lowlatency versions 
+are suitable for Linux gaming compared to stock kernel which is tuned rather for stability to be used by server users 
+and enterprise sector too.
+* original kernel source tarball: [https://github.com/xanmod/linux/archive/5.10.5-xanmod2-cacule.tar.gz](https://github.com/xanmod/linux/archive/5.10.5-xanmod2-cacule.tar.gz)
+
+## 5.10 
+
+* only bluetooth didn't worked - solved by patch*
 * source from ubuntu kernel mainline PPA [ver. 5.10](https://kernel.ubuntu.com/~kernel-ppa/mainline/v5.10/)
 
-## kernels & issues
-
-**5.10**
-* only bluetooth didn't worked - solved by patch*
+## previous kernels used on this machine & issues
 
 **5.9.x**
 * bluetooth not working (solved by patch*)
